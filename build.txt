@@ -1,0 +1,6 @@
+displayName = Lan's Unlimited Buff Slots
+author = Lanboost
+version = 0.2
+includePDB = true
+includeSource = true
+homepage = https://github.com/Lanboost/TModLoader_LansUnlimitedBuffSlots
