@@ -32,10 +32,10 @@ namespace LansUnlimitedBuffSlots
 					int num3 = -1;
 					for (int l = 0; l < Player.MaxBuffs; l++)
 					{
-						if (!Main.debuff[player.buffType[l]])
+						if (!Main.debuff[player.buffType[l]] && player.buffTime[l] > 0)
 						{
 							num3 = l;
-							break;
+							//break;
 						}
 					}
 					if (num3 == -1)
