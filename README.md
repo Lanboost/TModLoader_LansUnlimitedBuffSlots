@@ -2,6 +2,11 @@
  Gives the player an extra 200 buff slots so buffs doesn't override each other. Now uses TModLoader's internal code for this.
 
 
+# Change log:
+V. 0.2.1:
+
+	- Added config to set the max buff slots
+
 # Other TModLoader mods by me:
 * [Lanboosts Auto Join Team](https://github.com/Lanboost/TModLoader_LansAutoJoinTeam)
   * Automatically joins the red team whenever you play terraria, perfect for lazy people!

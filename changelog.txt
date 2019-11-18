@@ -1,0 +1,2 @@
+V. 0.2.1:
+	- Added config to set the max buff slots
