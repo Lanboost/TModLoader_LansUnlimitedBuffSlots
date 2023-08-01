@@ -3,8 +3,10 @@
 
 
 # Change log:
-V. 0.2.1:
+V. 2023.08.01.1:
+	- Ported to TML 1.4.4
 
+V. 0.2.1:
 	- Added config to set the max buff slots
 
 # Other TModLoader mods by me:

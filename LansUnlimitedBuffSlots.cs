@@ -21,9 +21,9 @@ namespace LansUnlimitedBuffSlots
 		public override void PreUpdateBuffs()
 		{
 			base.PreUpdateBuffs();
-			if (this.player == Main.LocalPlayer)
+			if (this.Player == Main.LocalPlayer)
 			{
-				int toRemove = this.player.CountBuffs() - GetInstance<Config>().MaxBuffSlots;
+				int toRemove = this.Player.CountBuffs() - GetInstance<Config>().MaxBuffSlots;
 
 				
 
@@ -32,7 +32,7 @@ namespace LansUnlimitedBuffSlots
 					int num3 = -1;
 					for (int l = 0; l < Player.MaxBuffs; l++)
 					{
-						if (!Main.debuff[player.buffType[l]] && player.buffTime[l] > 0)
+						if (!Main.debuff[Player.buffType[l]] && Player.buffTime[l] > 0)
 						{
 							num3 = l;
 							//break;
@@ -42,7 +42,7 @@ namespace LansUnlimitedBuffSlots
 					{
 						return;
 					}
-					player.DelBuff(num3);
+					Player.DelBuff(num3);
 					toRemove--;
 				}
 			}
